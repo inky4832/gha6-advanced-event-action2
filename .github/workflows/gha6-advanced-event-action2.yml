@@ -14,7 +14,7 @@ jobs:
     steps:  
       - name: Run Test  
         run: |  
-          echo github.event_name: "${{ github.event_name }}" 
+          echo github.event_name: "${{ github.event_name.types }}" 
           echo Run Test  
   
   
