@@ -1,8 +1,9 @@
 name: advanced event action workflow  
 
 on: 
-    [push, pull_request, fork, workflow_dispatch]  
+    push  
     issues
+    fork
 jobs:  
   
   test:
