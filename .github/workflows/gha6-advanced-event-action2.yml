@@ -1,4 +1,4 @@
-name: advanced event action workflow  
+name: advanced event activity type action workflow  
 
 on: 
     push:  
@@ -6,7 +6,6 @@ on:
         types:
         - opened
         - labeled
-    fork:
 jobs:  
   
   test:
