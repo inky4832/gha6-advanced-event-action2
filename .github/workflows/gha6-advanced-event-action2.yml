@@ -1,9 +1,9 @@
 name: advanced event action workflow  
 
 on: 
-    push  
-    issues
-    fork
+    push:  
+    issues:
+    fork:
 jobs:  
   
   test:
