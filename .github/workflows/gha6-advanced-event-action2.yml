@@ -3,6 +3,8 @@ name: advanced event action workflow
 on: 
     push:  
     issues:
+      - opened
+      - labeled
     fork:
 jobs:  
   
